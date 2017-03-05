@@ -88,7 +88,7 @@
 			static inline uint8_t Buttons_GetStatus(void) ATTR_WARN_UNUSED_RESULT;
 			static inline uint8_t Buttons_GetStatus(void)
 			{
-				return ((PINE & BUTTONS_BUTTON1) ^ BUTTONS_BUTTON1);
+				return ((PINB & BUTTONS_BUTTON1) ^ BUTTONS_BUTTON1);
 			}
 		#endif
 
