@@ -50,8 +50,8 @@
  *  @{
  */
 
-#ifndef __BUTTONS_USBKEY_H__
-#define __BUTTONS_USBKEY_H__
+#ifndef __BUTTONS_LEONARDO_H__
+#define __BUTTONS_LEONARDO_H__
 
 	/* Includes: */
 		#include "../../../../Common/Common.h"
